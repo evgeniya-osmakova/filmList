@@ -1,0 +1,38 @@
+@import 'variables.scss';
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+@mixin h1Text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+@mixin h2Text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+@mixin h3Text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+}
+
+@mixin h4Text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+@mixin bodyText {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+@mixin mini {
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+}
